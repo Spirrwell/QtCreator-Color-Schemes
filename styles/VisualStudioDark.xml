@@ -9,7 +9,7 @@
   <style name="Parentheses"/>
   <style name="ParenthesesMismatch"/>
   <style name="AutoComplete"/>
-  <style name="CurrentLine" background="#0f0f0f"/>
+  <style name="CurrentLine" background="#353535"/>
   <style name="CurrentLineNumber" foreground="#2b91af" bold="true"/>
   <style name="Occurrences"/>
   <style name="Occurrences.Unused"/>
@@ -17,16 +17,18 @@
   <style name="Number" foreground="#afd99c"/>
   <style name="String" foreground="#d69d85"/>
   <style name="Type" foreground="#3dcaac"/>
-  <style name="Local"/>
-  <style name="Global"/>
+  <style name="Local" foreground="#9cdcfe"/>
+  <style name="Global" foreground="#9cdcfe"/>
   <style name="Field"/>
   <style name="Static" foreground="#b0df90"/>
   <style name="VirtualMethod" italic="true"/>
-  <style name="Function"/>
+  <style name="Function" foreground="#dcdc8b"/>
   <style name="Keyword" foreground="#398ecf"/>
   <style name="PrimitiveType" foreground="#3a87d0"/>
   <style name="Operator"/>
-  <style name="Preprocessor" foreground="#b853c1"/>
+  <style name="Overloaded Operator" foreground="#00677c"/>
+  <style name="Punctuation"/>
+  <style name="Preprocessor" foreground="#c586c0"/>
   <style name="Label"/>
   <style name="Comment" foreground="#57a64a"/>
   <style name="Doxygen.Comment" foreground="#006400"/>
@@ -55,10 +57,17 @@
   <style name="DiffDestLine"/>
   <style name="DiffDestChar"/>
   <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="LogAuthorName" foreground="#007af4"/>
+  <style name="LogCommitDate" foreground="#006600"/>
+  <style name="LogCommitHash" foreground="#ff0000"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffbe00"/>
   <style name="WarningContext" underlineColor="#ffbe00"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
   <style name="Declaration"/>
-  <style name="C_OUTPUT_ARGUMENT"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="LastStyleSentinel"/>
 </style-scheme>
